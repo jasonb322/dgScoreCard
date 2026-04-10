@@ -1,0 +1,157 @@
+:root {
+	--primary: #8D85C1;
+	--primaryLight: hsl(248, 15%, 95%);
+	--positiveColor: #86C2A5;
+	--secondary: #C2BA86;
+	--negativeColor: #C28D86;
+	--darkAccentColor: #58556D;
+}
+
+body {
+	margin: 10% auto;
+	font-size: 1rem;
+}
+
+.holeLabelRow {
+	font-weight: 700;
+}
+
+.scoreCardGrid {
+	display: grid;
+	grid-template-columns: 2fr repeat(9, 1fr);
+	gap: 3px;
+
+	width: 100%;
+	max-width: 320px;
+	border-style: solid;
+	border-radius: 5px;
+	border-width: 1px;
+
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	margin: 5px auto;
+	font-size: 0.9rem;
+	font-weight: 500;
+}
+
+.par {
+	align-content: center;
+	aspect-ratio: 1;
+}
+
+
+.eagleAce {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+
+	border-radius: 50%;
+	border-style: double;
+	border-width: 3px;
+	border-color: #3fa773;
+
+	background-color: #a7d3bd;
+	align-content: center;
+	aspect-ratio: 1;
+}
+
+.birdie {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+
+	border-radius: 50%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: var(--darkAccentColor);
+
+	background-color: #ccc9e4;
+	align-content: center;
+	aspect-ratio: 1;
+}
+
+.bogie {
+	background-color: #e4ccc9;
+	align-content: center;
+	aspect-ratio: 1;
+}
+
+
+.doubleBogie {
+	background-color: #d3aca7;
+	align-content: center;
+	aspect-ratio: 1;
+}
+
+
+.doubleBogiePlus {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+
+	border-style: double;
+	border-color: #d27e73;
+	border-width: 3px;
+	
+	background-color: #d3aca7;
+	align-content: center;
+	aspect-ratio: 1;
+}
+
+
+#leaderBd {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+	gap: 1px;
+	border-style: solid;
+	text-align: center;
+	padding: 10px;
+	border-radius: 5px;
+	width: 100%;
+	max-width: 320px;
+	margin: 5px auto;
+	background-color: var(--primaryLight);
+	font-weight: 500;
+}
+
+
+#navFullCardView {
+	display: flex;
+	justify-content: space-between;
+	width: 120%;
+	max-width: 343px;
+	margin: 5px auto;
+	padding: 0;
+
+}
+
+#masterControl {
+	/* border: 2px solid;
+	border-radius: 3px;
+	border-color: var(--primary); */
+	display: flex;
+	padding: 0 3px;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+#scoringBtn {
+	border: 2px solid;
+	border-color: var(--darkAccentColor);
+}
+
+.note {
+	text-align: center; 
+	max-width: 275px;
+}
+
+#saveParOrderBtn {
+	background-color: var(--primaryLight);
+	color: var(--darkAccentColor);
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 3px;
+	border-color: (var(--darkAccentColor))
+}
+

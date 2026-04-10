@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-VL7B0ZY37H"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-VL7B0ZY37H');
+	</script>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- MY STYLE SHEETS -->
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" type="text/css" href="addPlayers.css" />
+
+	
+
+	<!-- Google Font Import -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+	<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+	<link rel="manifest" href="/images/manifest.json">
+
+	<title>dgScoreCard - Players</title>
+
+
+</head>
+
+<body>
+
+	<div id="addPlayersViewContainer">
+
+		<header id="versionID">
+			<!-- <p>DGScoreCard.com</p> -->
+			<img src="./images/android-chrome-512x512.png" id="logoImgAddPlayers" alt="DG ScoreCard Logo">
+			<p id="versionID">Beta v0.12.3</p>
+		</header>
+
+
+		<h1 id="enterPlayersLabel">Players</h1>
+
+		<!-- PLAYER TEXT ENTRY PORTION WITH ADD BUTTON -->
+		<div id="enterPlayerDiv">
+			<input type="text" id="playerNameInput" placeholder="Player Name" autocomplete="off" />
+			<br>
+			<button id="addPlayerBtn">Add</button>
+		</div>
+
+		<!-- DISPLAY PLAYER LIST -->
+		<div id="activePlayerList"></div>
+
+		<button id="scoreRndBtn">Score Round</button>
+
+	</div>
+
+
+	<!-- Pad bottom of the page to prevent hiding behind menu bar. -->
+	<br><br><br>
+
+	
+
+	<div class="menu-bar">
+		<a href="./addPlayers.html">
+			<img src="./images/viewIcons/playersIcon.png" alt="Players Icon" id="playersIcon" class="menuIconActive">
+		</a>
+		<a href="./scoring.html">
+			<img src="./images/viewIcons/scoringIcon.png" alt="Scoring Icon" id="scoringIcon" class="menuIcons">
+		</a>
+		<a href="./fullCard.html">
+			<img src="./images/viewIcons/fullCardIcon.png" alt="Full Card Icon" id="fullCardIcon" class="menuIcons">
+		</a>
+		<a href="./home.html">
+			<img src="./images/viewIcons/helpIcon.png" alt="Help Icon" id="helpIcon" class="menuIcons">
+		</a>
+	</div>
+
+
+
+	<script type="module" src="addPlayers.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+/*  ADD PLAYERS VIEW  */
+#addPlayersViewContainer {
+	text-align: center;
+	margin: 15% auto 5% auto;
+	border-style: solid;
+	width: 80%;
+	max-width: 320px;
+	border-radius: 5px;
+	border-width: 2px;
+	padding: 5%;
+}
+
+a {
+	/* text-decoration: underline; */
+	color: var(--darkAccentColor);
+	margin: 3px auto;
+}
+
+#logoImgAddPlayers {
+	max-width: 25%;
+	border-radius: 10%;
+}
+
+#addPlayerBtn {
+	font-family: "Poppins", sans-serif;
+	padding: 5px;
+}
+
+#versionID {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	font-size: 0.8rem;
+	margin: 0 0 5% 0;
+	align-items: center;
+}
+
+#enterPlayersLabel {
+	font-size: 1.75rem;
+	font-weight: 400;
+}
+
+#versionID {
+	font-size: 0.75rem;
+	margin: 2%
+}
+
+p {
+	margin: 5px 2px;
+}
+
+#enterPlayerDiv {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#playerNameInput {
+	font-size: 1.25rem;
+}
+
+#activePlayerList {
+	border-style: solid;
+	border-radius: 3px;
+	border-width: 2px;
+	border-color: var(--primaryLight);
+	max-width: 70%;
+	margin: 3px auto;
+}
+
+.addedPlayerDivs {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.playerRemoveBtns {
+	padding: 5px;
+	margin: 0 5px;
+}
+
+#scoreRndBtn {
+	border-style: solid;
+	border-width: 2px;
+	border-color: var(--darkAccentColor);
+	background-color: var(--primaryLight);
+	color: var(--darkAccentColor);
+	font-weight: 500;
+}
+
+

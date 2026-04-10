@@ -1,0 +1,47 @@
+#logoImg {
+	margin-top: 10%;
+	margin-bottom: 5px;
+	width: 500px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: var(--primaryLight);
+}
+
+#versionID {
+	margin: 3px;
+	font-size: .9rem;
+}
+
+
+
+h2 {
+	margin: 1.2rem;
+}
+
+.buttonHomeView {
+	border-style: solid;
+	border-width: 2px;
+	border-color: var(--darkAccentColor);
+	background-color: var(--primaryLight);
+	color: var(--darkAccentColor);
+	font-weight: 500;
+	width: 60%;
+	margin: 10px auto;
+	font-size: 1.1rem;
+	padding: 3px;
+}
+
+#labelForBmacBtn {
+	margin: 2rem auto 0 auto;
+	max-width: 70%;
+	font-size: 0.8rem;
+	padding: 0;
+	font-size: .85rem;
+}
+
+#bmacBtn {
+	margin-top: 15px;
+	height: 42px !important;
+	width: 152px !important;
+	margin-bottom: 10%;
+}

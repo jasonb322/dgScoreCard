@@ -1,0 +1,18 @@
+h1 {
+	font-size: 2.5rem;
+}
+
+
+.figure {
+	padding: 5%;
+	border: 2px solid var(--primaryLight);
+	border-radius: 5px;
+	max-width: 75%;
+	margin: 2% auto;
+}
+
+.quickLinks {
+	margin: 2px;
+}
+
+

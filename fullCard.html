@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-VL7B0ZY37H"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-VL7B0ZY37H');
+	</script>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" type="text/css" href="fullCard.css" />
+
+	<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+	<link rel="manifest" href="/images/manifest.json">
+
+	<title>dgScoreCard - Full Card</title>
+</head>
+
+<body>
+	<a href="./index.html">
+		<img src="./images/android-chrome-512x512.png" id="logoImg" alt="DG ScoreCard Logo">
+	</a>
+	
+	<div id="leaderBd">
+		<!-- DYNAMICALLY POPULATED -->
+	</div>
+
+	<!-- DISPLAY FRONT AND BACK 9 BOX SCORES -->
+	<div class="scoreCardGrid" id="scGridFront"></div>
+	<div class="scoreCardGrid" id="scGridBack"></div>
+
+	<!-- NAVIGATION -->
+	<div id="navFullCardView">
+		<div id="masterControl">
+			<button id="deleteCardBtn">Delete Card</button>
+			<button id="saveParOrderBtn">Save Par Set</button>
+		</div>
+
+		<button id="scoringBtn">Back To Scoring</button>
+	</div>
+
+	<div id="bottomOfView">
+		<p class="note">🥏 Use a screenshot to take a picture of your
+			scorecard and share it with friends.
+		</p>
+	</div>
+
+	<!-- Pad bottom of the page to prevent hiding behind menu bar. -->
+	<br><br><br>
+
+	<div class="menu-bar">
+		<a href="./addPlayers.html">
+			<img src="./images/viewIcons/playersIcon.png" alt="Players Icon" id="playersIcon" class="menuIcons">
+		</a>
+		<a href="./scoring.html">
+			<img src="./images/viewIcons/scoringIcon.png" alt="Scoring Icon" id="scoringIcon" class="menuIcons">
+		</a>
+		<a href="./fullCard.html">
+			<img src="./images/viewIcons/fullCardIcon.png" alt="Full Card Icon" id="fullCardIconActive" class="menuIconActive">
+		</a>
+		<a href="./home.html">
+			<img src="./images/viewIcons/helpIcon.png" alt="Help Icon" id="helpIcon" class="menuIcons">
+		</a>
+	</div>
+
+
+	<script type="module" src="fullCard.js"></script>
+</body>
+
+</html>

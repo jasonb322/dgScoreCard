@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-VL7B0ZY37H"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-VL7B0ZY37H');
+	</script>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- MY STYLE SHEETS -->
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" type="text/css" href="userGuide.css" />
+
+	<!-- Google Font Import -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+	<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+	<link rel="manifest" href="/images/manifest.json">
+
+	<title>dgScoreCard - User Guide</title>
+</head>
+
+<body class="instructions">
+	<a href="./index.html">
+		<img src="./images/android-chrome-512x512.png" id="logoImg" alt="DG ScoreCard Logo">
+	</a>
+
+
+	<h1>dgScoreCard</h1>
+	<h2>User Guide</h2>
+	<div id="userGuide">
+
+		<p>Thank you for choosing dgScoreCard!</p>
+
+		<p>dgScoreCard is a progressive web application (PWA) that is meant to keep disc golf scoring quick and
+			easy. </p>
+
+		<p>This means that you can choose to install DGScoreCard as a tile on your phone’s home screen and the app
+			will appear to run natively, regardless of the make. Or, if you’re pinched for time, you can just
+			navigate to DGScoreCard.com and start scoring your round. All that’s needed is a phone that has web
+			browsing access and an internet connection.*</p>
+
+		<br>
+
+		<div id="navLinks">
+			<h3>Contents:</h3>
+			<ol>
+				<li class="quickLinks"><a href="#startingOut">Getting Started</a></li>
+				<li class="quickLinks"><a href="#enterPlayersView">Entering Player Names</a></li>
+				<li class="quickLinks"><a href="#scoringView">Keeping Score</a></li>
+				<li class="quickLinks"><a href="#fullScoreCardView">Viewing The Full Card</a></li>
+				<li class="quickLinks"><a href="#savingParSet">Saving Course Par Values</a></li>
+				<li class="quickLinks"><a href="#sharingYourScoreCard">Sharing Your Scorecard</a></li>
+				<li class="quickLinks"><a href="#deletingScoreCards">Delete A Scorecard</a></li>
+				<li class="quickLinks"><a href="#installingPWA">Installing DGScoreCard</a></li>
+				<li class="quickLinks"><a href="#scoringWithoutInternet">Scoring Without The Internet</a></li>
+
+			</ol>
+		</div>
+
+		<br>
+
+		<div id="startingOut">
+			<h3 class="label">Getting Started With dgScoreCard</h3>
+			<ol class="instructions">
+				<li>Navigate to dgscorecard.com on your favorite browser (Safari or Chrome are recommended).</li>
+				<li>First time visitors will be guided to the Enter Players view.</li>
+			</ol>
+
+		</div>
+
+		<br>
+
+		<div id="enterPlayersView">
+			<h3>Enter Players View</h3>
+			<p>In the Enter Players View you can add or remove any players that you would like. You also have access
+				to support links below the main window.</p>
+			<img src="./images/userGuide/addPlayersImg.png" alt="Image of the Enter Players View On dgScoreCard"
+				id="addPlayersImg" class="figure">
+			<ol>
+				<li>To add players, type the players name in the text field and hit the Add button.</li>
+				<li>If you successfully entered the player’s name it will appear in the player list below the text
+					input.</li>
+				<li>Next to the player name you will see a red [ - ] button. Clicking this button will prompt you to
+					confirm whether or not you want the player removed from the card. To remove the player, click
+					OK to confirm. To keep the player on the card, simply click on cancel in the confirmation
+					popup.</li>
+				<li>The player list size isn’t capped, but it’s recommended to start two cards for groups larger
+					than 7 for ease of scoring.</li>
+				<li>Players can be added and removed at any point in the round by clicking the [ Players ] button in
+					the active scoring window.</li>
+				<li>Currently, editing names isn’t supported, but you can add or delete players at any point in the
+					round. If you do happen to spell someone’s name wrong it is recommended that you remove their
+					name and replace it before scores are recorded.</li>
+			</ol>
+
+		</div>
+
+		<br>
+
+		<div id="scoringView">
+			<h3>Active Scoring View</h3>
+			<p>In Active Scoring View you can keep live scores for each player in your round, view current +/- round
+				scores, and navigate to the Full Card and Enter Player views. Think of the Active Scoring window as
+				the central window of the app.</p>
+			<img src="./images/userGuide/activeScoringImg.png" alt="Image of the Active Scoring View On dgScoreCard"
+				id="activeScoringImg" class="figure">
+			<ol>
+				<li>After starting to score a round, opening the app or going to dgScoreCard.com will guide you to
+					the active scoring view. This is the main app window where player scores can be entered and
+					where you have linked access to both the player entry view as well as the full scorecard.</li>
+				<li>In the active scoring view, player scores can be entered with the [ - ] and [ + ] buttons. When
+					you first hit the [ + ] button, the par score will be displayed and then continue to rise
+					without limit. Hitting the [ - ] button will start with the birdie score and then continue to
+					count down to 0, at which time the hole score is represented with a dash. A dash indicates the
+					hole has been reset back to its initial state. The inactive hole is also NOT currently being
+					counted in the round score.</li>
+				<li>While increasing or decreasing hole scores, players’ +/- scores are updated in real time. Plans
+					to hide the over/under score are on my ToDo list.</li>
+				<li>After scoring a hole, the tee box throwing order of the players will be determined for you.
+					Players will be arranged in throwing order in the scoring view when advancing to the next hole
+					to be scored.</li>
+				<li>To change the par value for the hole, click the “Edit” drop down under the par value displayed
+					on screen. Select the par value you would like that hole to have. All round scores and player
+					+/- scores will be updated to reflect this new par value.</li>
+				<li>To advance from one hole to the next or previous hole, use the Prev Hole and Next Hole buttons
+					under the active scoring window.</li>
+			</ol>
+
+
+		</div>
+
+		<br>
+
+		<div id="fullScoreCardView">
+			<h3>Full Scorecard View</h3>
+			<p>The full scorecard can be accessed from the Active Scoring View by pressing the [ View Card ] button.
+			</p>
+			<img src="./images/userGuide/fullCardImg.png" alt="Image of the Active Scoring View On dgScoreCard"
+				id="fullCardImg" class="figure">
+			<ol>
+				<li>In the Full Card View window, the leader board is displayed at the top of the screen and it
+					shows player standings and +/- scores.</li>
+				<li>The box score shows all hole scores for the round and scores for each player for each hole.</li>
+				<li>Score entries are color coded.</li>
+				<ul>
+					<li>A green circle with a double outline indicates an eagle, ace, or albatross.</li>
+					<li>A blue circle with a single outline is a birdie.</li>
+					<li>A number with no ornamentation is a par.</li>
+					<li>A number surrounded by a coral box is a bogie.</li>
+					<li>A number surrounded by a darker coral box is a double bogie.</li>
+					<li>Triple bogie and higher scores have a darker coral box with a double outline.</li>
+				</ul>
+				<li>Your round score will only be counted for holes that have been scored. Holes without a score are
+					ignored.</li>
+				<br>
+			</ol>
+
+
+		</div>
+
+		<br>
+
+		<div id="savingParSet">
+			<h3>Saving a Par Set / Setting a Default Course</h3>
+			<p>In dgScoreCard it is possible to save a “default” course. This means that if you frequent a local
+				course and you want the par values for each hole to reflect that course you can do so through the
+				Save Par Set feature.</p>
+
+			<ol>
+				<li>Either before or during your round, go to each hole in the Active Scoring view. Click the edit
+					drop down under the par value to change the hole’s par number. All holes on the initial default
+					card are set to par 3, making setting up a new course faster.</li>
+				<li>Then, click on the [ View Card ] button to be guided to the Full Card view.</li>
+				<li>In this view, click/tap the [ Save Par Set ] button and follow the prompts to save the par
+					values as the default par values in the app.</li>
+				<li>Every card that you make from this point on will have this par set, until you save a new par
+					set, clear your browser history, or reinstall the app.</li>
+				<li>If you do not want to save the updated par values as default values, simply do not click the [
+					Save Par Set ] button when viewing the full card. The next card you open will not reflect this
+					round’s unique pars and will open to your default par set as long as you do not save the par
+					set.</li>
+				<li>NOTE: Default par sets will be cleared when updating the app version (if using DG ScoreCard as a
+					PWA) or clearing your browsing history (when using DGScoreCard.com directly through a browser).
+				</li>
+				<br>
+			</ol>
+
+
+		</div>
+
+		<br>
+
+		<div id="sharingYourScoreCard">
+			<h3>Sharing Your Score Card</h3>
+			<p>Currently, the only way to share your card is to take a screenshot and send it to friends. This is
+				partially because I haven’t yet added a feature for sharing cards. Another reason for this is that I
+				kind of like the “in the moment” nature of the app. It doesn’t allow for pointless scrolling through
+				stats and screens. It just helps you score the round in the moment and does little else. The card is
+				literally only good for the moment and I kind of like that.</p>
+
+			<br>
+		</div>
+
+		<div id="deletingScoreCards">
+			<h3>Deleting A Scorecard / Starting a New Round</h3>
+			<p>You can delete a scorecard and start a new round at any point.</p>
+			<ol>
+				<li>Deleting a Scorecard after the round:</li>
+				<ul>
+					<li>Take any screenshots to record your current card prior to deleting the card. Once it’s
+						gone, it’s gone.</li>
+					<li>Click/tap the [ View Card ] button in the Active Scoring view</li>
+					<li>Click the [ Delete Card ] button in the Full Card view.</li>
+					<li>Confirm or deny card deletion in the pop up window.</li>
+					<li>Once your card is deleted it is gone.</li>
+				</ul>
+
+				<li>Deleting a Scorecard mid-round:</li>
+				<ul>
+					<li>Same as above, just know that once you delete the card you cannot get it back.</li>
+				</ul>
+			</ol>
+
+		</div>
+
+		<br>
+		<div id="installingPWA">
+			<h3>Installing DGScoreCard as a Progressive Web App (PWA)</h3>
+			<p>You can install DG ScoreCard as a progressive web app (PWA) on your phone. This means that even though
+				the app is hosted on the web, you can experience it on your phone as if it was a native app. Click
+				the link for more:</p>
+
+			<p>When a new version of dgScoreCard is available, you can install the new version by navigating to
+				dgScoreCard with your internet browser. From there, follow the directions linked above in order to
+				install the latest version of dgScoreCard</p>
+
+			<a href="./install.html">Installing dgScoreCard</a>
+
+
+		</div>
+
+		<br>
+
+		<div id="scoringWithoutInternet">
+			<h3>*Scoring Without The Internet
+			</h3>
+			<p>It is possible to keep score while not connected to the internet, however, you will not be able to
+				navigate between all of the app’s views.</p>
+			<ol>
+				<li>To score while not connected to the internet:</li>
+				<ul>
+					<li>Start a new round and enter all desired player and par values (as you normally would), but
+						before leaving your internet connected area.</li>
+					<li>Advance the app’s view to the active scoring window where each player is listed with their
+						corresponding [ - ] and [ + ] scoring buttons.</li>
+					<li>Once there, you can keep score without the internet and the app will remember your scores.
+						If you exit or close DGScoreCard, it will remember what hole you last scored.</li>
+					<li>You won’t be able to access the Enter Players view or the Full Card view, but the app will
+						track your scores and provide a live +/- round score for each player.</li>
+					<li>Later, when back to the internet connected area, you can view the full card and regain full
+						access to the app’s different views.</li>
+				</ul>
+			</ol>
+
+			<br>
+		</div>
+
+	</div>
+
+
+	<a href="./home.html">❮ Back</a>
+	<!-- Pad bottom of the page to prevent hiding behind menu bar. -->
+	<br><br><br>
+
+	<div class="menu-bar">
+		<a href="./addPlayers.html">
+			<img src="./images/viewIcons/playersIcon.png" alt="Players Icon" id="playersIcon" class="menuIcons">
+		</a>
+		<a href="./scoring.html">
+			<img src="./images/viewIcons/scoringIcon.png" alt="Scoring Icon" id="scoringIcon" class="menuIcons">
+		</a>
+		<a href="./fullCard.html">
+			<img src="./images/viewIcons/fullCardIcon.png" alt="Full Card Icon" id="fullCardIcon" class="menuIcons">
+		</a>
+		<a href="./home.html">
+			<img src="./images/viewIcons/helpIcon.png" alt="Help Icon" id="helpIcon" class="menuIconActive">
+		</a>
+	</div>
+
+
+</body>
+
+</html>
